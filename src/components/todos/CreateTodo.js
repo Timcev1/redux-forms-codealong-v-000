@@ -15,6 +15,12 @@ class CreateTodo extends Component {
       </div>
     )
   }
+
+  handleChange(event) {
+    this.setState({
+      text: event.target.value
+    });
+  };
 }
 
 export default CreateTodo;
