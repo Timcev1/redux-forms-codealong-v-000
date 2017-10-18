@@ -5,7 +5,7 @@ class CreateTodo extends Component {
     return(
       <div>
         <form>
-        <p>
+          <p>
             <label>add todo</label>
             <input type="text" onChange={(event) => this.handleChange(event)}/>
           </p>
