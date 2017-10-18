@@ -8,6 +8,13 @@ class CreateTodo extends Component {
      text: '',
    };
  }
+ handleSubmit(event) {
+  event.preventDefault();
+  this.props.store.dispatch({
+    type: 'ADD_TODO',
+    todo: this.state,
+  });
+}
 
   render() {
     return(
