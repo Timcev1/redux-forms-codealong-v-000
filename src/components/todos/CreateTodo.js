@@ -1,18 +1,18 @@
 import React, { Component } from 'react'
 
 class CreateTodo extends Component {
-  
+
  constructor() {
    super();
    this.state = {
      text: '',
    };
  }
-  
+
   render() {
     return(
       <div>
-        <form>
+        <form onSubmit={(event) => this.handleSubmit(event)}>
           <p>
             <label>add todo</label>
             <input type="text" onChange={(event) => this.handleChange(event)}/>
