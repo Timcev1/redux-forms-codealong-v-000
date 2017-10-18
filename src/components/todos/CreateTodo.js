@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
 class CreateTodo extends Component {
-  render() {
-
-  constructor() {
+  
+ constructor() {
    super();
    this.state = {
      text: '',
    };
-  }
-
+ }
+  
+  render() {
     return(
       <div>
         <form>
