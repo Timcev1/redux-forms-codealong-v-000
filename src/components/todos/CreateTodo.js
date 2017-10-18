@@ -8,7 +8,7 @@ class CreateTodo extends Component {
      text: '',
    };
  }
- 
+
  handleSubmit(event) {
   event.preventDefault();
   this.props.store.dispatch({
