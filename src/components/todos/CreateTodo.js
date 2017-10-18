@@ -2,13 +2,13 @@ import React, { Component } from 'react'
 
 class CreateTodo extends Component {
   render() {
-    
-constructor() {
- super();
- this.state = {
-   text: '',
- };
-}
+
+  constructor() {
+   super();
+   this.state = {
+     text: '',
+   };
+  }
 
     return(
       <div>
